@@ -1,0 +1,38 @@
+package acmecorp;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class StepDefs {
+	@Given("^that the system has an item \"([^\"]*)\"$")
+	public void that_the_system_has_an_item(String arg1) throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Given("^that I am logged in as a customer$")
+	public void that_I_am_logged_in_as_a_customer() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@When("^I search for \"([^\"]*)\"$")
+	public void I_search_for(String arg1) throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^the search returns (\\d+) item$")
+	public void the_search_returns_item(int arg1) throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^that item is an \"([^\"]*)\"$")
+	public void that_item_is_an(String arg1) throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+}
